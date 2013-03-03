@@ -46,7 +46,7 @@ class Perf4jGriffonPlugin {
             email: 'aalmiray@yahoo.com'
         ]
     ]
-    String title = 'XML-RPC client & libraries'
+    String title = 'Trace performance with Perf4j'
 
     String description = '''
 The Perf4j Plugin integrates the [Perf4J profiling library][1] into Griffon.
