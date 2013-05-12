@@ -41,6 +41,8 @@ public class DefaultPerf4jProvider extends AbstractPerf4jProvider {
         return INSTANCE;
     }
 
+    private DefaultPerf4jProvider() {}
+
     @Override
     protected StopWatch getPerf4jStopWatch(Map<String, Object> params) {
         ConfigObject config = mergeParams(params);
